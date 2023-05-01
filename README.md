@@ -25,4 +25,4 @@ Global folder includes "Federated Project Global.ipynb" file, which is the jupyt
 
 #### State
 
-State folder includes "Federated State.ipynb" file, which is the jupyter notebook file showing data processing of the state level cases and date models for the local datasets to establish the local models. The folder also includes the inital local datasets - "table.csv" and the result for the best model - "z.csv".
+State folder includes "Federated State.ipynb" file, which is the jupyter notebook file showing data processing of the state level cases and date models for the local datasets to establish the local models. The folder also includes the inital local datasets - "table.csv" and "tabletranspose.csv"; and the result for the best model - "z.csv".
