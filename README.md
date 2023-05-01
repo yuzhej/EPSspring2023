@@ -14,3 +14,15 @@ In this project, I initially tested out TensorFlow Federated learning to underst
 
 ### Background
 I initially attempted to use the TensorFlow Federated framework (https://www.tensorflow.org/federated), developed and maintained by TensorFlow at Google (https://www.tensorflow.org), to work on this project. TensorFlow Federated (TFF) is a framework for building machine learning models that can be trained on decentralized data, such as data stored on user devices. TFF allows building, training, and testing machine learning models on data distributed across multiple data sources, like hospitals or users’ devices, without having to centralize the data, which enables privacy-preserving and scalable machine learning. TFF provides a set of tools for defining and executing federated computations, and for aggregating the results of these computations to update a global model. With such features, it can be utilized in real-world federated data to address the challenges of privacy. One example Google showed was Google Keyboard research on training models on individual devices and improving the shared model by sending only the model update.
+
+### File Directory
+
+There are two folders, Global and State, which includes jupyter notebook files and underlying datasets. The remaining png files are graphs and charts from these jupyter notebook files, which included in the final report. 
+
+#### Global
+
+Global folder includes "Federated Project Global.ipynb" file, which is the jupyter notebook file showing data processing of the entire COVID-19 case file and data models for the entire datasets to establish the global base model.
+
+#### State
+
+State folder includes "Federated State.ipynb" file, which is the jupyter notebook file showing data processing of the state level cases and date models for the local datasets to establish the local models. The folder also includes the inital local datasets - "table.csv" and the result for the best model - "z.csv".
