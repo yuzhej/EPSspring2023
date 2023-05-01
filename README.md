@@ -17,12 +17,16 @@ I initially attempted to use the TensorFlow Federated framework (https://www.ten
 
 ### File Directory
 
-There are two folders, Global and State, which includes jupyter notebook files and underlying datasets. The remaining png files are graphs and charts from these jupyter notebook files, which included in the final report. 
+There are three folders, Global, State, and charts, which include jupyter notebook files, underlying datasets and charts. 
 
-#### Global
+#### global
 
 Global folder includes "Federated Project Global.ipynb" file, which is the jupyter notebook file showing data processing of the entire COVID-19 case file and data models for the entire datasets to establish the global base model.
 
-#### State
+#### state
 
 State folder includes "Federated State.ipynb" file, which is the jupyter notebook file showing data processing of the state level cases and date models for the local datasets to establish the local models. The folder also includes the inital local datasets - "table.csv" and "tabletranspose.csv"; and the result for the best model - "z.csv".
+
+#### charts
+
+charts folder includes png files showing graphs and charts derived from these jupyter notebook files. 
